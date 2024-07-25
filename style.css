@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    box-sizing: border-box;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    background-image: url(./annie-spratt-coIBOiWBPjk-unsplash.jpg);
+    display: flex;
+    background-size: contain; /* Scales the image to fit the element while preserving aspect ratio */
+    background-repeat: no-repeat;
+    width:83vw;
+}
+#img1{
+    height: 150px;
+    width: auto;
+}
+.img-text{
+    margin-top: 200px;
+    height: 175px;
+    width: 81.5vh;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #eee;
+    font-size: 135px;
+    justify-content: center;
+
+}
+.text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.div1,.div2,.div3,.div1mid{
+    color: #000328;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+button{
+    color: #eee;
+    background-color: #7b9ed6;
+    border: none;
+    font-size: 24px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 8px;
+}
+span{
+    color: #7b9ed6;
+}
+input{
+   width: 200px;
+   height: 20px;
+   border: 2px solid #e5e7eb;
+   border-radius: 4px;
+}
+.div1{
+    font-weight: bold;
+    background-color: #fafafa;
+    padding:80px;
+}
+.div1mid{
+    font-size: 2rem;
+    padding: 20px 20px 20px 80px;
+}
+.div2{
+    display: flex;
+    font-size: 16px;
+    padding: 0px 20px 20px 80px;
+    gap: 80px;
+    flex: 1;
+}
+.div3{
+    font-weight: bold;
+    background-color: #fafafa;
+    padding:80px;
+}
+input:focus{
+        border-color: rgb(37, 109, 225);
+        outline: none; /* Removes the default focus outline */
+      }
+input:invalid {
+    border-color: red;
+  }
